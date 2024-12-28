@@ -1,0 +1,17 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .App {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .App {
+    grid-template-columns: 1fr;
+    padding: 8px;
+  }
+}
